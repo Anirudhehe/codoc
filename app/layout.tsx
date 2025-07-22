@@ -11,6 +11,9 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: "CoDoc",
   description: "Your go-to collaborative editor",
+  icons: {
+    icon: "/favicon.ico",
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
